@@ -1,0 +1,89 @@
+.navbar.navbar-transparent {
+    padding-top: 5px;
+}
+
+.navbar-transparent {
+        background: #0f77aa !important;
+        border-bottom: 14px solid #0f77aa;
+        box-shadow: none;
+    }
+    .navbar-transparent .navbar-brand,
+    [class*="bg"] .navbar-brand {
+        color: #ffffff;
+        opacity: 0.9;
+        filter: alpha(opacity=90);
+        padding: 27px 15px;
+    }
+    header {
+        background-image: url("../images/downloads.jpg");
+        background-repeat:no-repeat ;
+        background-position: center;
+        background-size: cover;
+        padding: 10rem 1rem;
+    }
+    header h1 {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: white;
+        font-weight: bold;
+    }
+    header p{
+        font-size: 20px;
+        line-height: 1.5em;
+        color: #ffffff;
+        font-weight: bolder;
+    }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.header {
+    background-color: #1a2a33;
+    color: white;
+    padding: 10px 0;
+}
+.document-header{
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.d-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 70px;
+}
+.document-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.document-card:hover {
+    transform: translateY(-5px);
+}
+.pdf-icon {
+    background: #FFD700;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.pdf-icon img {
+    width: 40px;
+    height: 40px;
+}
+.document-title {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}

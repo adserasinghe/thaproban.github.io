@@ -1,0 +1,114 @@
+.navbar.navbar-transparent {
+    padding-top: 5px;
+}
+.navbar-transparent {
+    background: #0f77aa !important;
+    border-bottom: 14px solid #0f77aa;
+    box-shadow: none;
+}
+.navbar-transparent .navbar-brand,
+[class*="bg"] .navbar-brand {
+    color: #ffffff;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    padding: 27px 15px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding: 60px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: -30px;
+    font-weight: bold;
+    color: #333;
+}
+.navbar.navbar-transparent{
+    padding-top: 5px;
+}
+.navbar-brand img{
+    width:10%;
+    height: 10%;
+    padding: 0px 5px;
+}
+.section {
+    margin-bottom: 40px;
+}
+
+
+header {
+    background-image: url("../images/about-us.jpg");
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+header p{
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #ffffff;
+    font-weight: bolder;
+}
+header h1{
+    font-size: 3.5rem;
+    margin-bottom: -3rem;
+    color: white;
+}
+p{
+    font-size: 15px;
+    line-height: 1.5em;
+}
+.hero-content h1 {
+font-size: 2.5rem;
+margin-bottom: 1rem;
+}
+.about-container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 2rem;
+}
+.about-section {
+display: flex;
+flex-wrap: wrap;
+gap: 2rem;
+margin-top: 2rem;
+}
+.about-content {
+flex: 1;
+min-width: 300px;
+}
+.about-image {
+flex: 1;
+min-width: 300px;
+}
+.about-image img {
+width: 100%;
+height: auto;
+border-radius: 8px;
+}
+.team-section {
+margin-top: 3rem;
+}
+.team-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 2rem;
+margin-top: 2rem;
+}
+.team-member {
+text-align: center;
+}
+.team-member img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+.hero-content h1 {
+    font-size: 2rem;
+}
+}

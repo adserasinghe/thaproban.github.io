@@ -1,0 +1,260 @@
+#Hero body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    background-color: #3366ff;
+    color: white;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.navbar.navbar-transparent {
+    padding-top: 5px;
+}
+
+.navbar-transparent {
+        background: #0f77aa !important;
+        border-bottom: 14px solid #0f77aa;
+        box-shadow: none;
+    }
+    .navbar-transparent .navbar-brand,
+    [class*="bg"] .navbar-brand {
+        color: #ffffff;
+        opacity: 0.9;
+        filter: alpha(opacity=90);
+        padding: 27px 15px;
+    }
+    header {
+        background-image: url("../images/partner.jpg");
+        background-repeat:no-repeat ;
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        color: white;
+        text-align: center;
+        padding: 10rem 1rem;
+    }
+    header p{
+        font-size: 20px;
+        line-height: 1.5em;
+        color: #ffffff;
+        font-weight: bolder;
+    }
+
+.partner-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.intro-text {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 18px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partner-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 155px;
+    justify-items: center;
+    align-items: center;
+}
+
+.partner-logo {
+    width: 100%;
+    max-width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+#inquariy body {
+    font-family: 'Arial', sans-serif;
+    background-color: #3366ff;
+    color: white;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+#inquariy .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+.intro-text {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.form-container {
+    background-color: black;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+    background-color: black;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+}
+
+select option {
+    background-color: #3366ff;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.checkbox-group input {
+    width: auto;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #0f77aa;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+    
+    .intro-text {
+        font-size: 16px;
+    }
+    
+    .partner-grid {
+        gap: 110px;
+    }
+    
+    .partner-logo {
+        max-width: 150px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+    
+    .partner-container {
+        padding: 20px 10px;
+    }
+    
+    .partner-grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 20px;
+    }
+    
+    .partner-logo {
+        max-width: 120px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+    
+    .intro-text {
+        font-size: 16px;
+    }
+    
+    .form-container {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+    
+    .container {
+        padding: 20px 10px;
+    }
+    
+    button {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+}
