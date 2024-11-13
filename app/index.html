@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,21 +9,29 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./images/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
     <title>Thaproban | Explore the paradise(beta)</title>
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
-
+<!--pre-loader-->
+<div class="preloader">
+    <div class="pre-logo-container">
+        <div class="pre-logo"></div>
+        <div class="loading-ring"></div>
+    </div>
+    <div class="loading-text">Please Wait</div>
+    <div class="loading-text">Paradise is Loading</div>
+    </div>
 <body>
-    <body>
         <section>
                 <nav class="navbar navbar-toggleable-md fixed-top navbar-transparent" color-on-scroll="500">
             <div class="container">
                 <div class="navbar-translate">
-                    <a class="navbar-brand" title="Thaprobane" href="index.php"><img src="./images/flogo.png"></a>
+                    <a class="navbar-brand" title="Thaprobane" href="index.php"><img src="./images/flogo.png" alt="brand-logo"></a>
                 </div>
                 <div class="scrollable-content">
+                    <a class="booking-btn" href="./book.html">Book Now</a>
                 <div class="menu-wrap">
                     <input type="checkbox" class="toggler">
                     <div class="hamburger"><div></div></div>
@@ -140,11 +147,13 @@
                             <div class="title-brand">
                                 <h1 class="presentation-title">Thaproban</h1>
                             </div>
-    
+                            <div>
+                                <p class="sub-text">Explore the Paradise</p>
+                            </div>
                             <div class="pcb-text">
                               <div class="pcb-text">
                                 <div class="text-center">
-                                    <p>#Ayubowan...</p>
+                                    <p>#Ayubowan...!</p>
                                 </div>
                               </div>
                         </div>
@@ -171,27 +180,43 @@
                         <p>Explore Your Category</p>
                 <h1 class="tour-header">Featured Tours</h1>
                 </div>
-                <div class="card-container">
-                    <div class="card" id="card1">
-                        <div class="card-content">
-                            <h2>Anuradhapura</h2>
-                            <p>Anuradhapura is a historic city in Sri Lanka, renowned for its ancient ruins, sacred temples, and significance as a center of early Buddhist civilization.</p>
+                    <div class="cards-wrapper">
+                        <!-- Card 1 -->
+                        <div class="card-container">
+                          <div class="card card-1">
+                            <div class="front">
+                              <h2 class="card-title">Anuradhapura</h2>
+                            </div>
+                            <div class="back">
+                              <p class="card-content">Anuradhapura, a UNESCO World Heritage Site, is one of Sri Lanka's ancient capitals, known for its well-preserved ruins and historical significance in the country's Buddhist heritage.</p>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="card" id="card2">
-                        <div class="card-content">
-                            <h2>Nuwaraeliya</h2>
-                            <p>Nuwara Eliya, known as "Little England," is a charming city in Sri Lanka, famous for its picturesque landscapes, cool climate, and lush tea plantations.</p>
+                    
+                        <!-- Card 2 -->
+                        <div class="card-container">
+                          <div class="card card-2">
+                            <div class="front">
+                              <h2 class="card-title">Nuwaraeliya</h2>
+                            </div>
+                            <div class="back">
+                              <p class="card-content">Nuwara Eliya, known as "Little England," is a charming city in Sri Lanka, famous for its picturesque landscapes, cool climate, and lush tea plantations.</p>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="card" id="card3">
-                        <div class="card-content">
-                            <h2>Kandy</h2>
-                            <p>Kandy, a UNESCO World Heritage Site, is a historical city in Sri Lanka, renowned for the sacred Temple of the Tooth and its rich cultural heritage.</p>
+                    
+                        <!-- Card 3 -->
+                        <div class="card-container">
+                          <div class="card card-3">
+                            <div class="front">
+                              <h2 class="card-title">Kandy</h2>
+                            </div>
+                            <div class="back">
+                              <p class="card-content">Kandy, a UNESCO World Heritage Site, is a historical city in Sri Lanka, renowned for the sacred Temple of the Tooth and its rich cultural heritage.</p>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-                </div>
-                </div>
+                      </div>
             </section>
             <section name="Destination" id="Destination">
                 <div class="container-grid">
@@ -301,7 +326,7 @@
                     </div>
                 </div>
             </section>
-            <section name="blog"id="blog">
+            <section name="blog" id="blog">
             <div class="container-blog">
                 <p>OUR</p>
                 <h1>LATEST BLOG</h1>
@@ -309,7 +334,7 @@
                     <div class="blog-item">
                         <img src="./images/blog image 1.jpg" alt="Blog image">
                         <div class="blog-content">
-                            <h2 class="blog-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="blog-title">Our Nature</h2>
                             <p class="blog-date">DATE: 09.09.2023</p>
                             <a href="#" class="read-more">READ MORE</a>
                         </div>
@@ -317,7 +342,7 @@
                     <div class="blog-item">
                         <img src="./images/blog image 2.jpg" alt="Blog image">
                         <div class="blog-content">
-                            <h2 class="blog-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="blog-title">Our Animals</h2>
                             <p class="blog-date">DATE: 09.09.2023</p>
                             <a href="#" class="read-more">READ MORE</a>
                         </div>
@@ -325,7 +350,7 @@
                     <div class="blog-item">
                         <img src="./images/blog image 3.jpg" alt="Blog image">
                         <div class="blog-content">
-                            <h2 class="blog-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="blog-title">Our Mountains</h2>
                             <p class="blog-date">DATE: 09.09.2023</p>
                             <a href="#" class="read-more">READ MORE</a>
                         </div>
@@ -333,7 +358,7 @@
                     <div class="blog-item">
                         <img src="./images/blog image 4.jpg" alt="Blog image">
                         <div class="blog-content">
-                            <h2 class="blog-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="blog-title">Our Culture</h2>
                             <p class="blog-date">DATE: 09.09.2023</p>
                             <a href="#" class="read-more">READ MORE</a>
                         </div>
@@ -341,7 +366,7 @@
                     <div class="blog-item">
                         <img src="./images/blog image 5.jpg" alt="Blog image">
                         <div class="blog-content">
-                            <h2 class="blog-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="blog-title">Our Foods</h2>
                             <p class="blog-date">DATE: 09.09.2023</p>
                             <a href="#" class="read-more">READ MORE</a>
                         </div>
@@ -433,7 +458,7 @@
                                 <p>Email: talk@thaproban.com</p>
                             </div>
                             <div class="footer-center">
-                                <img src="./images/flogo.png" alt="thaproban Logo">
+                                <img src="./images/flogo.png" alt="footer Logo">
                                 <h1>Thaproban</h1>
                                 <p>Explore the paradise</p>
                             </div>
@@ -472,13 +497,13 @@
                       <span id="progress-value">&#x1F815;</span>
                     </div>
                     <!--end of top button-->
-                    </body>
                     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
                     <script src="./JS/app.js"></script>
                     <script src="./js/scroll.js"></script>
                     <script src="./js/top.js"></script>
+                    <script src="./JS/pre-loader.js"></script>
                     <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
                     <!--Start of Tawk.to Script-->
                 <script type="text/javascript">

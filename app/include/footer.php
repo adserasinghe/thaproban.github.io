@@ -62,6 +62,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
     <script src="./JS/app.js"></script>
     <script src="./js/scroll.js"></script>
+    <script src="./js/pre-loader.js"></script>
     <script src="./js/top.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
     <!--Start of Tawk.to Script-->
