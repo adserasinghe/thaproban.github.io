@@ -10,15 +10,15 @@ header {
     background-repeat:no-repeat ;
     background-position: center;
     background-size: cover;
-    height: 400px;
     color: white;
     text-align: center;
-    padding: 7rem 1rem;
+    padding: 22rem 1rem;
 }
-header p{
-    font-size: 20px;
+header h1{
+    font-family: "Black Ops One", system-ui;
+    font-size: 5rem;
     line-height: 1.5em;
-    color: #ffffff;
+    color: white;
     font-weight: bolder;
 }
 

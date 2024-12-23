@@ -42,14 +42,19 @@ h1 {
 
 
 header {
-    background-image: url("../images/destination.jpg");
+    background-image: url("../images/destinations-bg.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
     color: white;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 20rem 1rem;
 }
 
-h1 {
-    margin-top: 1rem;
+header h1 {
+    margin-top: 2rem;
+    font-family: "Black Ops One", system-ui;
+    font-size: 3rem;
+    text-align: center;
 }
 p{
     font-size: 15px;

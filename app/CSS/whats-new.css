@@ -1,64 +1,46 @@
-/*.navbar-transparent {
-    background: #0f77aa !important;
-    border-bottom: 14px solid #0f77aa;
-    box-shadow: none;
-}
-.navbar-transparent .navbar-brand,
-[class*="bg"] .navbar-brand {
-    color: #ffffff;
-    opacity: 0.9;
-    filter: alpha(opacity=90);
-    padding: 27px 15px;
-}*/
-
-h1 {
-    font-size: 2.5rem;
-    padding: 60px;
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .whats-hero {
+    position: relative;
     text-align: center;
-    margin-top: -80px;
-    font-weight: bold;
-}
+    color: white;
+    background: url('../images/news.jpg') no-repeat center center/cover;
+    height: 100vh;
+  }
 
-header p{
-    margin-top: -50px;
-}
-.navbar.navbar-transparent{
-    padding-top: 5px;
-}
-.navbar-brand img{
-    width:12%;
-    height: 10%;
-    padding: 0px 10px;
-}
 
-header {
-        background-image: url("../images/news.jpg");
-        background-repeat:no-repeat ;
-        background-position: center;
-        background-size: cover;
-        height: 400px;
-        color: white;
-        text-align: center;
-        padding: 10rem 1rem;
+  .whats-hero h1 {
+    font-size: 5rem;
+    font-family: "Black Ops One", system-ui;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 300px;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 768px) {
+  
+    .hero h1 {
+      font-size: 5rem;
+      padding: 5px 10px;
     }
-    header p{
-        font-size: 20px;
-        line-height: 1.5em;
-        color: #ffffff;
-        font-weight: bolder;
-    }
-.section {
+  }
+
+  .section {
     margin-bottom: 40px;
 }
-
-
 .grid-item-content a{
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-main {
+  main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -98,9 +80,8 @@ main {
     border: none;
     border-radius: 5px;
 }
-
 @media (max-width: 600px) {
     .news-grid {
         grid-template-columns: 1fr;
     }
-}
+  }

@@ -15,6 +15,7 @@
 }
 
 h1 {
+    font-family:"Black Ops One", system-ui ;
     font-size: 2.5rem;
     padding: 60px;
     text-align: center;
@@ -41,21 +42,14 @@ header {
     background-repeat:no-repeat ;
     background-position: center;
     background-size: cover;
-    height: 400px;
     color: white;
     text-align: center;
-    padding: 2rem 1rem;
-}
-header p{
-    font-size: 20px;
-    line-height: 1.5em;
-    color: #ffffff;
-    font-weight: bolder;
+    padding: 25rem 1rem;
 }
 header h1{
     font-size: 3.5rem;
     margin-bottom: -3rem;
-    color: white;
+    color: black;
 }
 p{
     font-size: 15px;

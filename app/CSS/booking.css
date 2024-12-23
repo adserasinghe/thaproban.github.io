@@ -7,7 +7,7 @@
 
   body {
     min-height: 100vh;
-    background: linear-gradient(135deg, #667eea, #0f77aa);
+    background: url('../images/booking.svg');
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@
   }
 
   .booking-container {
-    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
     border-radius: 20px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
     width: min(90vw, 1000px);
@@ -24,7 +24,8 @@
   }
 
   .booking-header {
-    background: linear-gradient(135deg, #667eea, #0f77aa);
+    background: linear-gradient(135deg, #00ada7, #dc9182);
+    backdrop-filter: blur(5px);
     color: white;
     padding: 30px;
     text-align: center;
@@ -64,15 +65,17 @@
   .form-group label {
     display: block;
     margin-bottom: 8px;
-    color: #4a5568;
+    color: black;
     font-weight: 500;
   }
 
   .form-group input,
   .form-group select {
+    background-color: transparent;
+    color: black;
     width: 100%;
     padding: 12px;
-    border: 2px solid #e2e8f0;
+    border: 2px solid black;
     border-radius: 10px;
     font-size: 1em;
     transition: all 0.3s ease;
@@ -81,30 +84,40 @@
   .form-group input:focus,
   .form-group select:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: white;
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+  }
+
+  .form-group ::placeholder {
+    color: black;
   }
 
   .form-group input:hover,
   .form-group select:hover {
-    border-color: #667eea;
+    border-color: white;
+    background-color: white;
   }
 
   .btn-submit {
-    background: linear-gradient(135deg, #667eea, #0f77aa);
-    color: white;
+    background: #dc9182;
+    backdrop-filter: blur(5px);
+    color: black;
     padding: 15px 30px;
-    border: none;
+    border: 2px solid #dc9182;
     border-radius: 10px;
     font-size: 1.1em;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 100%;
     margin-top: 20px;
+    margin-left: 150px;
     animation: fade-in 0.5s ease-out 0.8s backwards;
   }
 
   .btn-submit:hover {
+    background: #00ada7;
+    color: white;
+    border: #00ada7;
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
@@ -116,17 +129,20 @@
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 15px 125px;
-    border: none;
+    border: 2px solid black;
     border-radius: 10px;
     font-size: 1.1em;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 100%;
     margin-top: 20px;
+    margin-left: 150px;
     animation: fade-in 0.5s ease-out 0.8s backwards;
   }
 
   .return-menu:hover {
+    background-color: black;
+    color: white;
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }

@@ -25,8 +25,7 @@
         <div class="loading-text">Paradise is Loading</div>
         </div>
 <body>
-    <bod>
-        <section>
+    <section>
                 <nav class="navbar navbar-toggleable-md fixed-top navbar-transparent" color-on-scroll="500">
             <div class="container">
                 <div class="navbar-translate">

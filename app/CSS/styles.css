@@ -2277,6 +2277,11 @@ textarea.form-control {
     background:#0f77aa;
     box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
 }
+
+.navbar-translate{
+    margin-left: 0px;
+    padding-right: 0px;
+}
 .navbar .navbar-brand {
     font-weight: 600;
     margin: -25px -4px;
@@ -2297,83 +2302,14 @@ textarea.form-control {
     top: 4px;
     right: 3px;
 }
-.navbar .nav-link [class^="fa"] {
-    top: 2px;
-}
-.navbar .nav-link p {
-    margin: 0px 0px;
-    color: #9a9a9a !important;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.5em;
-    padding: 15px 0;
-}
-.navbar .nav-link p:hover {
-    color: #403d39 !important;
-}
-.navbar .navbar-nav .nav-item .nav-link {
-    line-height: 1.6;
-    margin: 15px 0px;
-    padding: 10px 15px;
-    opacity: 0.8;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #66615b;
-}
-.navbar .navbar-nav .nav-item .nav-link.btn {
-    margin: 15px 3px;
-    padding: 9px;
-}
-.navbar .navbar-nav .dropdown-menu {
-    border-radius: 12px;
-    margin-top: 1px;
-}
-.navbar .navbar-collapse .nav-item .nav-link p {
-    display: inline;
-}
-.navbar .navbar-collapse .nav-item .dropdown-item i {
-    margin: 0 10px;
-    margin: 0 10px 0px 5px;
-    font-size: 18px;
-    position: relative;
-    top: 3px;
-}
-.navbar .navbar-collapse.show .navbar-nav .nav-item {
-    padding-right: 10px;
-}
-.navbar .notification-bubble {
-    right: 72px;
-    padding: 0.2em 0.6em;
-    position: absolute;
-    top: 15px;
-}
-.navbar .btn {
-    margin: 15px 3px;
-    font-size: 12px;
-}
-.navbar .btn i {
-    font-size: 14px;
-    line-height: 13px;
-}
-.navbar .btn-simple {
-    font-size: 16px;
-}
-.navbar .caret {
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-    position: absolute;
-}
+
 
 .navbar-brand img {
     width: 8%;
     height: 8%;
 }
 .navbar.navbar-transparent {
-    padding-top: 15px;
+    padding-top: 10px;
 }
 .navbar .logo-container {
     margin-top: 5px;
@@ -2594,10 +2530,6 @@ textarea.form-control {
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #e3e3e3;
-}
-
-.red {
-    color: #ff0000;
 }
 
 .collapse .navbar-text {
@@ -6060,6 +5992,19 @@ textarea.form-control {
     animation: cloudLoop 80s linear infinite;
 }
 
+@media (max-width: 768px){
+    .moving-clouds {
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        left: 0;
+        width: 250.625em;
+        height: 65.75em;
+        -webkit-animation: cloudLoop 80s linear infinite;
+        animation: cloudLoop 80s linear infinite;
+    }
+}
+
 @keyframes cloudLoop {
     0% {
         -webkit-transform: translate3d(0, 0, 0);
@@ -7974,14 +7919,14 @@ pre.prettyprint{
       /*booking button*/
 
       div > .booking-btn {
-        color: black;
+        color: white;
         padding: 10px 10px;
         top: -2px;
         left: 140px;
         text-decoration: none;
         font-size: 1rem;
-        background: linear-gradient(45deg, #FF416C, #FF4B2B);
-        border: none;
+        background: transparent;
+        border: 1.5px solid #FF416C;
         border-radius: 50px;
         cursor: pointer;
         position: relative;
@@ -7991,7 +7936,8 @@ pre.prettyprint{
       }
   
       div > .booking-btn:hover {
-        color: white;
+        color: black;
+        background: linear-gradient(45deg, #FF416C, #FF4B2B);
         transform: translateY(-3px);
         box-shadow: 0 8px 25px rgba(255, 65, 108, 0.5);
       }
@@ -8003,7 +7949,7 @@ pre.prettyprint{
         left: 0;
         width: 100%;
         height: 100%;
-        border: 2px solid #FF4B2B;
+        border: 3px solid #FF4B2B;
         border-radius: 50px;
         transition: all 0.3s ease;
         animation: borderPulse 1.5s infinite;
@@ -8028,11 +7974,11 @@ pre.prettyprint{
         div > .booking-btn {
             padding: 10px 10px;
             top: -40px;
-            left: 240px;
+            left: 215px;
             font-size: 1rem;
             color: white;
-            background: linear-gradient(45deg, #FF416C, #FF4B2B);
-            border: none;
+            background: transparent;
+            border: 1.5px solid #FF416C;
             border-radius: 50px;
             cursor: pointer;
             position: relative;
@@ -8042,6 +7988,7 @@ pre.prettyprint{
           }
       
           .booking-btn:hover {
+            color: black;
             transform: translateY(-3px);
             box-shadow: 0 8px 25px rgba(255, 65, 108, 0.5);
           }
@@ -8389,16 +8336,17 @@ pre.prettyprint{
 }
 .tour-header{
     text-align: center;
-    color: black;
+    color: white;
     margin-bottom: 0px;
     padding: 20px;
 }
 #Tours .container-grid p {
     text-align: center;
     font-size: 25px;
-    color: black;
+    font-weight: lighter;
+    color: white;
     margin-top: 80px;
-    margin-bottom: -50px;
+    margin-bottom: -35px;
     padding: 20px;
     text-transform: uppercase;
 }
@@ -8494,6 +8442,17 @@ pre.prettyprint{
     background-position: center;
   }
   .card-3 .back {
+    background: linear-gradient(45deg, #2193b0, #6dd5ed);
+  }
+
+   /* Card 4 */
+   .card-4 .front {
+    background-image: url("../images/galle.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .card-4 .back {
     background: linear-gradient(45deg, #2193b0, #6dd5ed);
   }
 
@@ -8599,6 +8558,7 @@ pre.prettyprint{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    padding-bottom: 80px;
 }
 .destination-item {
     position: relative;
@@ -8606,10 +8566,6 @@ pre.prettyprint{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     background-color: transparent;
-}
-
-.destination-item:hover {
-    transform: translateY(-10px); 
 }
 
 .destination-item img {
@@ -8623,7 +8579,7 @@ pre.prettyprint{
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0,0,0,0.7);
+    background: linear-gradient(15deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
     color: white;
     padding: 10px;
 }
@@ -8778,6 +8734,7 @@ pre.prettyprint{
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
+    margin-bottom: 70px;
 }
 
 .step {
@@ -8845,7 +8802,8 @@ transform: translateY(-5px);
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 50px;;
+    padding: 50px;
+    padding-bottom: 135px;
 }
 
 .blog-item {
@@ -8898,6 +8856,7 @@ transform: translateY(-5px);
     border-color:white;
     text-decoration: none;
     border-radius: 5px;
+    border-width: 2px;
     font-size: 14px;
     margin-top: 10px;
 }
@@ -8996,6 +8955,7 @@ transform: translateY(-5px);
     justify-content: center;
     gap: 20px;
     margin-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .review-content p{
