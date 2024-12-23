@@ -82,6 +82,18 @@
                             </div>
                           </div>
                         </div>
+
+                        <!-- Card 4 -->
+                        <div class="card-container">
+                          <div class="card card-4">
+                            <div class="front">
+                              <h2 class="card-title">Galle</h2>
+                            </div>
+                            <div class="back">
+                              <p class="card-content">Galle is a historic city on Sri Lanka's southern coast, known for its charming colonial architecture, beautiful beaches, and the UNESCO-listed Galle Fort.</p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
             </section>
             <section name="Destination" id="Destination">

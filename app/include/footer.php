@@ -1,6 +1,5 @@
 <?php ?>
 <head>
-<title>Thaproban | Explore the paradise(beta)</title>
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
         <footer class="footer">
@@ -24,12 +23,13 @@
                 <a href="https://www.termsfeed.com/live/a3f0c7ce-a5b4-488c-a798-5e78536c5308">Terms of Use</a>
                 <a href="https://www.termsfeed.com/live/d4efa273-d656-4232-a646-2280600ddae7">Privacy Policy</a>
                 <a href="#">Cookies Policy</a>
-                <a href="#">Sitemap</a>
-                <a href="#">Powerd By Nimitz Ceylon</a>
+                <a href="./sitemap.php">Sitemap</a>
+                <a href="#">Powerd By Nimitz</a>
                 <div class="social-icons">
                     <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-whatsapp"></i></a>
                     <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-rss"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
                     <a href="#"><i class="fa fa-youtube-play"></i></a>
                 </div>
             </div>

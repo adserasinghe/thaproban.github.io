@@ -1,21 +1,7 @@
 <?php include './include/header-2.php' ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Branches</title>
-    <link rel="icon" type="image/x-icon" href="./images/logo.png">
-    <link rel="stylesheet" href="./CSS/branches.css">
-    <style>
-        
-    </style>
-</head>
-<body>
 <section id="Hero">
     <header>
         <h1>Our Branches</h1>
-        <p>Any problem...?</p> <p>Our Regional Offices are here</p>
     </header>
     <div class="map-container">
         <div class="branches-grid">

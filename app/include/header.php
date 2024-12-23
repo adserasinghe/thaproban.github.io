@@ -12,25 +12,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
-    <title>Thaproban | Explore the paradise(beta)</title>
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
- <!--pre-loader-->
- <div class="preloader">
-        <div class="pre-logo-container">
-            <div class="pre-logo"></div>
-            <div class="loading-ring"></div>
-        </div>
-        <div class="loading-text">Please Wait</div>
-        <div class="loading-text">Paradise is Loading</div>
-        </div>
+<!--pre-loader-->
+<div class="preloader">
+    <div class="pre-logo-container">
+        <div class="pre-logo"></div>
+        <div class="loading-ring"></div>
+    </div>
+    <div class="loading-text">Please Wait</div>
+    <div class="loading-text">Paradise is Loading</div>
+    </div>
 <body>
-    <body>
         <section>
                 <nav class="navbar navbar-toggleable-md fixed-top navbar-transparent" color-on-scroll="500">
             <div class="container">
                 <div class="navbar-translate">
-                    <a class="navbar-brand" title="Thaprobane" href="index.php"><img src="./images/flogo.png"></a>
+                    <a class="navbar-brand" title="Thaprobane" href="index.php"><img src="./images/flogo.png" alt="brand-logo"></a>
                 </div>
                 <div class="scrollable-content">
                     <a class="booking-btn" href="./book.php">Book Now</a>
@@ -68,14 +66,6 @@
                                             </div>
                                         </div>
                             
-                                        <div class="col-md-3">
-                                            <div class="grid-item">
-                                                <a href="./publication.php"><img src="./images/TT9.jpg" alt="Publication">
-                                                <div class="overlay">
-                                                    <h2>Publication</h2>
-                                                </div></a>
-                                            </div>
-                                        </div>
                             
                                         <div class="col-md-3">
                                             <div class="grid-item">
@@ -94,6 +84,15 @@
                                                 </div></a>
                                             </div>
                                         </div>
+
+                                        <div class="col-md-3">
+                                            <div class="grid-item">
+                                                <a href="./destinations.php"><img src="./images/TT8.jpg" alt="Popular Destination">
+                                                <div class="overlay">
+                                                    <h2>Popular Destination</h2>
+                                                </div></a>
+                                            </div>
+                                        </div>
                             
                                         <div class="col-md-3">
                                             <div class="grid-item">
@@ -105,19 +104,19 @@
                                         </div>
                             
                                         <div class="col-md-3">
-                                            <div class="grid-item">
-                                                <a href="./destinations.php"><img src="./images/TT8.jpg" alt="Popular Destination">
-                                                <div class="overlay">
-                                                    <h2>Popular Destination</h2>
-                                                </div></a>
-                                            </div>
-                                        </div>
-                            
-                                        <div class="col-md-6">
                                             <div class="grid-item wide-item">
                                                 <a href="./partners.php"><img src="./images/TT10.jpg" alt="Our Partners">
                                                 <div class="overlay">
                                                     <h2>Our Partners</h2>
+                                                </div></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="grid-item wide-item">
+                                                <a href="index.php"><img src="./images/TT.jpg" alt="Home">
+                                                <div class="overlay">
+                                                    <h2><i class="fa fa-home" aria-hidden="true"></i><br>Home</h2>
                                                 </div></a>
                                             </div>
                                         </div>
@@ -138,4 +137,3 @@
                     </div>
                 </div>
 </nav>
-</section>

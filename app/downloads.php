@@ -5,7 +5,6 @@
 <section id="Hero">
     <header>
         <h1>Downloads</h1>
-        <p class="intro-text">Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus <a href="#" style="color: white;">quis elementum</a>. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.</p>
     </header>
     <div class="document-header">BANKING CIRCULAR NO 07 OF 2019</div>
 <div class="d-grid-container">
