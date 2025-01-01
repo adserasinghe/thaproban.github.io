@@ -2284,7 +2284,7 @@ textarea.form-control {
 }
 .navbar .navbar-brand {
     font-weight: 600;
-    margin: -25px -4px;
+    margin: -25px 11px;
     padding: 27px 15px;
     padding-right: 0;
     font-size: 14px;
@@ -5987,7 +5987,7 @@ textarea.form-control {
     bottom: 0;
     left: 0;
     width: 250.625em;
-    height: 43.75em;
+    height: 60.75em;
     -webkit-animation: cloudLoop 80s linear infinite;
     animation: cloudLoop 80s linear infinite;
 }
@@ -5996,10 +5996,10 @@ textarea.form-control {
     .moving-clouds {
         position: absolute;
         z-index: 1;
-        bottom: 0;
+        bottom: -70px;
         left: 0;
         width: 250.625em;
-        height: 65.75em;
+        height: 60.75em;
         -webkit-animation: cloudLoop 80s linear infinite;
         animation: cloudLoop 80s linear infinite;
     }
@@ -7863,7 +7863,7 @@ pre.prettyprint{
           position: absolute;
           left: 0;
           right: 0;
-          top: 80%;
+          top: 85%;
           text-align: center;
           z-index: 1;
       }
@@ -7909,12 +7909,20 @@ pre.prettyprint{
           width: 8px;
           height: 8px;
           margin: -4px 0 0 -4px;
+          z-index: 1;
           background: white;
           border-radius: 50%;
           -webkit-animation: ani-mouse 2.5s linear infinite;
           -moz-animation: ani-mouse 2.5s linear infinite;
           animation: ani-mouse 2.5s linear infinite;
       }  
+      /*hero section*/
+        #Hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            padding: 0px 0px 0px 0px;
+        }
 
       /*booking button*/
 
@@ -8526,7 +8534,7 @@ pre.prettyprint{
 }
 
 
- #Destination{
+ #destination{
     background-image: url('../images/destination-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -8539,13 +8547,13 @@ pre.prettyprint{
     padding: 20px;
 }
 
-#Destination h1 {
+#destination h1 {
     text-align: center;
     color: black;
     margin-bottom: 30px;
     padding: 10px;
 }
-#Destination p{
+#destination p{
     text-align: center;
     font-size: 25px;
     margin-top: 70px;
@@ -8635,7 +8643,7 @@ pre.prettyprint{
         font-size: 1.5em;
     }
 }
-#Booking{
+#booking{
     background-image: url('../images/bg3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -8676,7 +8684,7 @@ pre.prettyprint{
     color: black;
 }
 
-#Booking .booking-header p {
+#booking .booking-header p {
     font-size: 25px;
     color: black;
     text-align: center;
@@ -9158,7 +9166,7 @@ transform: translateY(-5px);
 
     .footer-left, .footer-center, .footer-right {
         text-align: center;
-        margin-bottom: 2rem;
+        margin-bottom: 0rem;
     }
 
     .footer-right .social-icons {
@@ -9167,7 +9175,7 @@ transform: translateY(-5px);
 
     .copyright {
         text-align: center;
-        margin-top: 6rem;
+        margin-top: 0rem;
         padding-bottom: 1rem;
         font-size: 0.8rem;
         color: white;
