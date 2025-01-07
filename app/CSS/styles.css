@@ -7917,7 +7917,7 @@ pre.prettyprint{
           animation: ani-mouse 2.5s linear infinite;
       }  
       /*hero section*/
-        #Hero {
+        #hero {
             position: relative;
             width: 100%;
             height: 100vh;
@@ -8336,7 +8336,7 @@ pre.prettyprint{
 
 /*end of hamburger menu*/
 
-#Tours{
+#tours{
     background-image: url('../images/bg2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -8348,7 +8348,7 @@ pre.prettyprint{
     margin-bottom: 0px;
     padding: 20px;
 }
-#Tours .container-grid p {
+#tours .container-grid p {
     text-align: center;
     font-size: 25px;
     font-weight: lighter;
@@ -8358,7 +8358,7 @@ pre.prettyprint{
     padding: 20px;
     text-transform: uppercase;
 }
-#Tours p{
+#tours p{
     text-align: justify;
     font-size: 12px;
     font-weight: bold;
@@ -8793,6 +8793,7 @@ transform: translateY(-5px);
 
 .container-blog > h1 {
     text-align: center;
+    text-transform: uppercase;
     padding: 50px;
     color: black;
     position: static;
